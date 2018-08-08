@@ -2,6 +2,7 @@
 #app
   img(src='https://gerardarhz.github.io/miMusic/dist/imagen.png')
   h1 Music
+  h4 Gerard ArHz
   select(v-model="selectedCountry")
     option(v-for="country in countries" v-bind:value="country.value") {{ country.name }}
   spinner(v-show="loading")
