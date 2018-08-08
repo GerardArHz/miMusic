@@ -1,6 +1,6 @@
 <template lang = "pug">
 #app
-  img(src='https://github.com/GerardArHz/miMusic/blob/master/dist/imagen.png')
+  img(src='https://gerardarhz.github.io/miMusic/blob/master/dist/imagen.png')
   h1 Music
   select(v-model="selectedCountry")
     option(v-for="country in countries" v-bind:value="country.value") {{ country.name }}
