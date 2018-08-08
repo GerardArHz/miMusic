@@ -45,6 +45,7 @@ export default {
     refreshArtists() {
       const self = this
       this.loading = true
+      self.artists = []
       getArtists(this.selectedCountry)
         .then(function (artists) {
           self.loading = false
@@ -53,6 +54,7 @@ export default {
     }
   },
   mounted() {
+  this.refreshArtists()
   },
   watch: {
     selectedCountry() {
