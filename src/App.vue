@@ -1,6 +1,6 @@
 <template lang = "pug">
 #app
-  img(src='https://gerardarhz.github.io/miMusic/dist/imagen.png')
+  img(src='dist/imagen.png')
   h1 Music
   h4 Gerard ArHz
   select(v-model="selectedCountry")
